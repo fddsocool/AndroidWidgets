@@ -1,4 +1,4 @@
-package com.frx.jitepaikejava;
+package com.frx.jitepaikejava.SplitEditDemo;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -18,11 +18,15 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatEditText;
 
+import com.frx.jitepaikejava.R;
+
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
 /**
- * 分离式输入框
+ * 分离式输入框 用于验证码等场景
+ * <p>
+ * 原版地址：https://github.com/jenly1314/SplitEditText
  */
 public class SplitEditText extends AppCompatEditText {
 

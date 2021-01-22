@@ -16,9 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".SplitEditDemo.SplitEditDemoActivity" />
-
+        <activity android:name=".noif.NoIfActivity" />
     </application>
 
 </manifest>

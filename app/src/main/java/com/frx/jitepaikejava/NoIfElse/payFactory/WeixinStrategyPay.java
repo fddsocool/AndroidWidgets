@@ -1,8 +1,6 @@
-package com.frx.jitepaikejava.noif.payFactory;
+package com.frx.jitepaikejava.NoIfElse.payFactory;
 
 import android.util.Log;
-
-import com.frx.jitepaikejava.noif.IPay;
 
 public class WeixinStrategyPay implements IFactoryPay {
 

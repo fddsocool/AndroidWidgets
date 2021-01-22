@@ -1,4 +1,4 @@
-package com.frx.jitepaikejava.noif.payFactory;
+package com.frx.jitepaikejava.NoIfElse.payFactory;
 
 import android.text.TextUtils;
 

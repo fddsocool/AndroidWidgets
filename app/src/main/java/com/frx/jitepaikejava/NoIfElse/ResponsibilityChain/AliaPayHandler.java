@@ -1,13 +1,13 @@
-package com.frx.jitepaikejava.noif.ResponsibilityChain;
+package com.frx.jitepaikejava.NoIfElse.ResponsibilityChain;
 
 import android.util.Log;
 
-public class JingdongPayHandler extends PayHandler {
+public class AliaPayHandler extends PayHandler {
 
     @Override
     public void pay(String pay) {
-        if ("jingdong".equals(pay)) {
-            Log.d("fmsg===>责任链模式", "===发起京东支付===");
+        if ("alia".equals(pay)) {
+            Log.d("fmsg===>责任链模式", "===发起支付宝支付===");
         } else if (getTryNextPay() != null) {
             getTryNextPay().pay(pay);
         } else {

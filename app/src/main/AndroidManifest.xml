@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".SplitEditDemo.SplitEditDemoActivity" />
-        <activity android:name=".noif.NoIfActivity" />
+        <activity android:name=".NoIfElse.NoIfActivity" />
     </application>
 
 </manifest>

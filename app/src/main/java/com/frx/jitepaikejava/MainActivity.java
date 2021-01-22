@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.frx.jitepaikejava.SplitEditDemo.SplitEditDemoActivity;
-import com.frx.jitepaikejava.noif.NoIfActivity;
+import com.frx.jitepaikejava.NoIfElse.NoIfActivity;
 
 import java.util.ArrayList;
 import java.util.List;

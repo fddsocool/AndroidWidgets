@@ -1,4 +1,4 @@
-package com.frx.jitepaikejava.noif;
+package com.frx.jitepaikejava.NoIfElse;
 
 import android.util.Log;
 

@@ -1,4 +1,4 @@
-package com.frx.jitepaikejava.noif.ResponsibilityChain;
+package com.frx.jitepaikejava.NoIfElse.ResponsibilityChain;
 
 public abstract class PayHandler {
 

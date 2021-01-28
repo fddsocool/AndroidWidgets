@@ -1,13 +1,13 @@
-package com.frx.jitepaikejava.NoIfElse.ResponsibilityChain;
+package com.frx.jitepaikejava.NoIfElseDemo.ResponsibilityChain;
 
 import android.util.Log;
 
-public class WeixinPayHandler extends PayHandler {
+public class AliaPayHandler extends PayHandler {
 
     @Override
     public void pay(String pay) {
-        if ("weixin".equals(pay)) {
-            Log.d("fmsg===>责任链模式", "===发起微信支付===");
+        if ("alia".equals(pay)) {
+            Log.d("fmsg===>责任链模式", "===发起支付宝支付===");
         } else if (getTryNextPay() != null) {
             getTryNextPay().pay(pay);
         } else {

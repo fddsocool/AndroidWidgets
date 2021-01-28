@@ -1,4 +1,4 @@
-package com.frx.jitepaikejava.NoIfElse;
+package com.frx.jitepaikejava.NoIfElseDemo;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

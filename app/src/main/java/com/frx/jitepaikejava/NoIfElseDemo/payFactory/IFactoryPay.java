@@ -1,4 +1,4 @@
-package com.frx.jitepaikejava.NoIfElse.payFactory;
+package com.frx.jitepaikejava.NoIfElseDemo.payFactory;
 
 /**
  * 支付接口

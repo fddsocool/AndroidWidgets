@@ -1,4 +1,4 @@
-package com.frx.jitepaikejava.NoIfElse;
+package com.frx.jitepaikejava.NoIfElseDemo;
 
 import android.os.Bundle;
 import android.widget.ImageView;
@@ -8,12 +8,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
 import com.frx.jitepaikejava.R;
-import com.frx.jitepaikejava.NoIfElse.ResponsibilityChain.PayChain;
-import com.frx.jitepaikejava.NoIfElse.payFactory.AliaStrategyPay;
-import com.frx.jitepaikejava.NoIfElse.payFactory.IFactoryPay;
-import com.frx.jitepaikejava.NoIfElse.payFactory.JingStrategyDongPay;
-import com.frx.jitepaikejava.NoIfElse.payFactory.PayStrategyFactory;
-import com.frx.jitepaikejava.NoIfElse.payFactory.WeixinStrategyPay;
+import com.frx.jitepaikejava.NoIfElseDemo.ResponsibilityChain.PayChain;
+import com.frx.jitepaikejava.NoIfElseDemo.payFactory.AliaStrategyPay;
+import com.frx.jitepaikejava.NoIfElseDemo.payFactory.IFactoryPay;
+import com.frx.jitepaikejava.NoIfElseDemo.payFactory.JingStrategyDongPay;
+import com.frx.jitepaikejava.NoIfElseDemo.payFactory.PayStrategyFactory;
+import com.frx.jitepaikejava.NoIfElseDemo.payFactory.WeixinStrategyPay;
 
 import java.util.ArrayList;
 import java.util.HashMap;

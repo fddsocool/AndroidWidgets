@@ -8,7 +8,8 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.frx.jitepaikejava.SplitEditDemo.SplitEditDemoActivity;
-import com.frx.jitepaikejava.NoIfElse.NoIfActivity;
+import com.frx.jitepaikejava.NoIfElseDemo.NoIfActivity;
+import com.frx.jitepaikejava.StatusLayoutDemo.StatusLayoutActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -53,6 +54,18 @@ public class MainActivity extends AppCompatActivity {
         divWidget.setDemoName("控件");
         arrayList.add(divWidget);
 
+        addWidget(arrayList);
+
+        DemoBean divUsage = new DemoBean();
+        divUsage.setType(0);
+        divUsage.setDemoName("技巧");
+        arrayList.add(divUsage);
+
+        addUsage(arrayList);
+    }
+
+    private void addWidget(ArrayList<DemoBean> arrayList) {
+        //分离式输入框
         DemoBean splitEditDemo = new DemoBean();
         splitEditDemo.setType(1);
         splitEditDemo.setDemoName("分离式输入框");
@@ -60,11 +73,17 @@ public class MainActivity extends AppCompatActivity {
         splitEditDemo.setIntentClass(SplitEditDemoActivity.class);
         arrayList.add(splitEditDemo);
 
-        DemoBean divUsage = new DemoBean();
-        divUsage.setType(0);
-        divUsage.setDemoName("技巧");
-        arrayList.add(divUsage);
+        //状态管理布局
+        DemoBean statusLayoutDemo = new DemoBean();
+        statusLayoutDemo.setType(1);
+        statusLayoutDemo.setDemoName("状态管理布局");
+        statusLayoutDemo.setDescription("用于页面的各种状态之间的切换");
+        statusLayoutDemo.setIntentClass(StatusLayoutActivity.class);
+        arrayList.add(statusLayoutDemo);
+    }
 
+    private void addUsage(ArrayList<DemoBean> arrayList) {
+        //no-if的方法
         DemoBean noIfDemo = new DemoBean();
         noIfDemo.setType(2);
         noIfDemo.setDemoName("no-if的方法");

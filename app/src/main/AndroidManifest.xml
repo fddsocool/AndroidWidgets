@@ -3,6 +3,7 @@
     package="com.frx.jitepaikejava">
 
     <application
+        android:name="com.frx.jitepaikejava.DemoApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -17,7 +18,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".SplitEditDemo.SplitEditDemoActivity" />
-        <activity android:name=".NoIfElse.NoIfActivity" />
+        <activity android:name=".NoIfElseDemo.NoIfActivity" />
+        <activity android:name=".StatusLayoutDemo.StatusLayoutActivity" />
     </application>
 
 </manifest>
